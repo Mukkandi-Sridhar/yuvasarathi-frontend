@@ -1,5 +1,12 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
+  ],
+  "redirects": [
+    {
+      "source": "www.dhraviq.com",
+      "destination": "https://dhraviq.com",
+      "permanent": true
+    }
   ]
 }
